@@ -24,12 +24,12 @@ This project demonstrates a CoAP (Constrained Application Protocol) server and c
 
 ### Running the Project
 1. **Open Project**: Open this folder in VS Code.
-  - Wait for the Platform IO estension: it will automatically install the required tools and dependencies
+    - Wait for the Platform IO estension: it will automatically install the required tools and dependencies
 2. **Build**: Use PlatformIO to build the project (Ctrl+Alt+B)
 3. **Simulate**: Open `diagram.json`, the ESP32 and its attached led should appear. Press the play button to start the simulation
-  - You can also run the simulation by opening the VSCode command palette (F1 usually), and use `Wokwi: Start Simulator`
-  - If it doesn't work, open `wokwi.toml` and adjust the path slashes: `\` for Windows, `/` for other operating systems
-  - Wokwi should automatically open the serial monitor
+    - You can also run the simulation by opening the VSCode command palette (F1 usually), and use `Wokwi: Start Simulator`
+    - If it doesn't work, open `wokwi.toml` and adjust the path slashes: `\` for Windows, `/` for other operating systems
+    - Wokwi should automatically open the serial monitor
 
 ## File Structure
 
